@@ -1,0 +1,6 @@
+<router-outlet />
+
+<h2>Exercise 1: Basic Output Creation and Emission</h2>
+
+<app-name-input (nameChangeEvent)="displayNewName($event)"></app-name-input>
+<p>Name: {{ newName }}</p>
